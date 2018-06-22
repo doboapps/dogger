@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Forum|Raleway+Dots');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:initial;
+  font-family: 'Forum', cursive !important;
+  font-size: 25px;
+}

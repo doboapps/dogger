@@ -1,0 +1,77 @@
+@import '../main.scss';
+
+
+.return{
+    z-index: 2;
+    cursor: pointer;
+}
+
+.return-disable{
+    z-index: 2;
+    color: $disabled;
+    cursor:not-allowed;
+}
+
+.logo{
+    text-align: center;
+    width: 100%;
+    position: absolute; 
+    left: 0;
+
+    img{
+        width: 7%;
+        max-width: 50px;
+    }
+}
+
+.nav-link{
+   display: inline-block;
+}
+
+.navbar-toggler{
+    z-index: 2;
+}
+
+.navbar-logged{
+ 
+    li{
+        display: inline-block;
+
+        img{
+            width: 30px ;
+            margin: 0 !important;  
+           }
+    }
+    border-bottom: solid 1px;
+}
+
+
+.zi-1{
+    z-index: 1;
+}
+
+.logout-icon{
+    display:none
+}
+
+@media(max-width: 768px){
+
+    .logo{
+        img{
+            width: 15%        }
+    }
+
+    .logout-icon{
+        display: initial;
+        margin-right: 8px;
+        position: relative;
+        top: 3px;
+    }
+    .logout-text{
+        display:none
+    }
+
+    .span-name-user{
+        display: none;
+    }
+}

@@ -1,0 +1,82 @@
+@import '../main.scss';
+
+.carousel-fade {
+  .carousel-item.active {
+    opacity: 1;
+  }
+  .carousel-item {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .75s ease-in-out;
+  }
+}
+
+html,body,.carousel,.carousel-inner,.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+.carousel-item:nth-child(1) {
+  background-color:$pink;
+}
+.carousel-item:nth-child(2) {
+  background-color: $blue_clear
+}
+.carousel-item:nth-child(3) {
+  background-color: $banana
+}
+
+.carousel-item{
+  
+  img{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  }
+  h3 {
+    width: 100%;
+  }
+}
+
+.carousel-caption{
+  top:100px;
+    h3{
+      font-size: 3em;
+      text-shadow: 4px 4px 10px gray;
+    }
+}
+
+.d-none{
+  display: inherit !important;
+}
+
+
+@media(min-width: 768px){  
+    
+    .carousel-item {
+    
+      img {
+        text-align: center;
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        bottom: 0;
+    }
+
+    h3 {
+      text-align: left;
+      width: 29%;
+      font-weight: bold;
+    }
+
+  }
+}

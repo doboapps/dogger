@@ -1,0 +1,33 @@
+@import '../main.scss';
+
+.container-upload-img{
+
+    .dropzone{
+        margin: 40px 0;
+        border-color: $gray_link_hover;
+        background: #ffffff52;
+        width: 100%;     
+    }
+
+    button{
+        margin: 0 5px 10px 5px
+    }
+
+     .card-img-top{
+         margin: 50px 0
+     }
+
+    text-align: center
+    
+}
+
+@media(max-width: 768px){
+    .dropzone{
+        height: 50vw !important;
+        margin: 20px 0 -20px 0 !important;
+    }
+    .card-img-top{
+        margin: 30px 0 15px 0 !important
+
+    }
+}

@@ -1,0 +1,58 @@
+@import '../main.scss';
+
+.container-edit-profile{
+
+    .data-pick{
+    position: relative;
+    width: 134%;
+    }
+
+    .nav-link{
+        padding: 0 40px 0 40px;
+        text-align: center
+    }
+
+    .btn-outline-secondary{
+        padding-left:20px ;
+        padding-right:20px ;
+        i{
+            margin-right: 10px;
+        }
+    }
+
+    legend{
+        cursor: pointer;
+    }
+
+    .fa-edit,.fa-check-square{
+        position: absolute;
+        right: 25px;
+        color: $gray_link_hover;
+        top: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .fa-check-square{
+        color: $comfirm;  
+        margin-top: 17px;
+    }
+    .fa-check-square:hover{
+            background: $comfirm;
+            color: white;  
+        }
+    
+    hr{
+        margin-bottom: 15px !important;
+    }
+
+    .data-pick,select, input,.btn-outline-secondary{
+        margin-top: 15px;
+        margin-bottom: 15px; 
+    }
+
+    .row{
+        margin: 50px 0 60px 0
+    }
+    margin-top: 50px;
+
+}

@@ -1,0 +1,26 @@
+@import '../main.scss';
+
+.container-register{
+    img{
+        margin-top: 200px;
+        position: absolute;
+        width: 100%;
+    }
+    .form-register{
+        input{
+            margin-left: 0 !important
+        }
+        margin-top: 50px;
+        background: rgba(255, 255, 255, 0.7)
+        }
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background: #3b393c;
+    overflow: hidden;
+
+}
